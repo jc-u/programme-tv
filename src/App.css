@@ -1,0 +1,54 @@
+.app header {
+	text-align: center;
+	margin: 50px auto 80px;
+}
+
+.app .container {
+	width: 580px;
+	margin: 0 auto 40px;
+}
+
+.app .container .programme {
+	display: flex;
+
+	height: 111px;
+	border-bottom: solid 1px #e5e5e5;
+}
+
+.app .container .programme .programme__time {
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: 25px;
+	line-height: 90px;
+}
+
+.app .container .programme .programme__content {
+	padding-left: 10px;
+}
+
+.app .container .programme .programme__title {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.app .container .programme .programme__type {
+	font-size: 12px;
+	margin: 10px 0 5px;
+}
+
+.app .container .programme .programme__duration {
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.app .container .programme .programme__description {
+	display: flex;
+}
+
+.app .container .programme .programme__description .programme__direct,
+.app .container .programme .programme__description .programme__unseen {
+	font-size: 12px;
+	font-weight: bold;
+	color: #ff014b;
+}
